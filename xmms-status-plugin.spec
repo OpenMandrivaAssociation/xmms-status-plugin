@@ -29,7 +29,8 @@ bzcat %SOURCE1 > po/de.po
 rm -f configure
 aclocal-1.8
 autoconf
- 
+libtoolize --copy --force 
+
 %build
 %configure2_5x --disable-more-warnings --disable-fatal-warnings
 
