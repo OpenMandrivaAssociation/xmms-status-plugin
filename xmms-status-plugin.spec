@@ -12,7 +12,6 @@ BuildRequires: libxmms-devel
 BuildRequires: gtk+-devel
 Source:        %name-%{version}.tar.bz2
 Source1:       xmms-status-plugin-1.0-de.po.bz2
-BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
 Url: http://www.hellion.org.uk/xmms-status-plugin/index.html
 BuildRequires: automake1.8
 BuildRequires: gettext-devel
