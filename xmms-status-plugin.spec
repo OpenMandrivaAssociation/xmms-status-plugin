@@ -1,13 +1,13 @@
 %define name xmms-status-plugin
 %define version 1.0
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name:          %{name}
 Version:       %{version}
 Release:       %{release}
 Summary:       A docklet for XMMS
 Group:         Sound
-License:       GPL
+License:       GPLv2+
 BuildRequires: libxmms-devel
 BuildRequires: gtk+-devel
 Source:        %name-%{version}.tar.bz2
