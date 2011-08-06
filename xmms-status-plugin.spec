@@ -1,6 +1,6 @@
 %define name xmms-status-plugin
 %define version 1.0
-%define release %mkrel 11
+%define release %mkrel 12
 
 Name:          %{name}
 Version:       %{version}
