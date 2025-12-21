@@ -8,6 +8,9 @@ Release:       %{release}
 Summary:       A docklet for XMMS
 Group:         Sound
 License:       GPLv2+
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: libxmms-devel
 BuildRequires: gtk+-devel
 Source:        %name-%{version}.tar.bz2
